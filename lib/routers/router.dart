@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medic/screens/login_page/login_page.dart';
+import 'package:medic/screens/sign_in/sign_in.dart';
 import 'package:medic/screens/splash_page/next_splash.dart';
 import 'package:medic/screens/splash_page/splash_page.dart';
 
@@ -14,9 +15,13 @@ class RouteGenerate {
         return MaterialPageRoute(
           builder: (context) => const NextSplash(),
         );
-        case '/login':
+      case '/login':
         return MaterialPageRoute(
           builder: (context) => const LoginPage(),
+        );
+        case '/in':
+        return MaterialPageRoute(
+          builder: (context) => const SignIn(),
         );
     }
     return null;

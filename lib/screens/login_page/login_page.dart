@@ -69,10 +69,12 @@ class LoginPage extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.symmetric(vertical: he(50)),
                   child: TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context, "/in");
+                      },
                       child: const Text("KIRISH UCHUN",
                           style: TextStyle(color: AppColors.blueAccent))),
-                )
+                ),
               ],
             )
           ],
