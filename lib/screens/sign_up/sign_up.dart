@@ -17,6 +17,8 @@ class _SignUpState extends State<SignUp> {
   Widget build(BuildContext context) {
     TextEditingController name = TextEditingController();
     TextEditingController parol = TextEditingController();
+    TextEditingController number = TextEditingController();
+    TextEditingController email = TextEditingController();
     bool bol = false;
     return Scaffold(
       appBar: LogAppBar().getBar(context),
@@ -38,15 +40,16 @@ class _SignUpState extends State<SignUp> {
                   padding: EdgeInsets.symmetric(vertical: he(16)),
                   child: FormFieldLogText(
                     type: TextInputType.number,
-                    controller: name,
+                    controller: number,
                     label: "Telefon raqam",
                   ),
                 ),
                 FormFieldLogText(
                   type: TextInputType.emailAddress,
-                  controller: name,
+                  controller: email,
                   label: "Elektron pochta manzil",
                 ),
+                SizedBox(height: he(16)),
                 TextFormField(
                   controller: parol,
                   keyboardType: TextInputType.number,
@@ -88,7 +91,7 @@ class _SignUpState extends State<SignUp> {
                   ),
                   Padding(
                     padding: EdgeInsets.only(left: wi(25), right: wi(10)),
-                    child: Text("Hisobingiz yo'qmi?",
+                    child: Text("Hisobingiz bormi?",
                         style: StyleText.styleBlack38W400Size14),
                   ),
                   const Text("KIRISH",
