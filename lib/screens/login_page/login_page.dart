@@ -38,7 +38,9 @@ class LoginPage extends StatelessWidget {
               children: [
                 ElevatedButton(
                     style: StyleButton.blueAccent,
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, "/up");
+                    },
                     child: const Text("Elektron pochta orqali davom eting")),
                 SizedBox(height: he(5)),
                 OutlinedButton(
