@@ -67,7 +67,7 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsets.symmetric(vertical: he(50)),
+                  padding: EdgeInsets.symmetric(vertical: he(40)),
                   child: TextButton(
                       onPressed: () {
                         Navigator.pushNamed(context, "/in");

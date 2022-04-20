@@ -8,4 +8,5 @@ class AppColors {
   static const blueAccent = Color(0xFF37B9C5);
   static const white = Colors.white;
   static const transparent = Colors.transparent;
+  static const yellow = Color.fromRGBO(255, 198, 24, 1);
 }

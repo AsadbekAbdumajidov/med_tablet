@@ -9,7 +9,9 @@ class LogAppBar {
       backgroundColor: AppColors.transparent,
       leading: IconButton(
           splashRadius: he(24),
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pop(context);
+          },
           icon: const Icon(Icons.arrow_back_ios_new_rounded,
               color: AppColors.black)),
       actions: [
