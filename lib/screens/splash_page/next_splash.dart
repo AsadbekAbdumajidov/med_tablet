@@ -50,11 +50,11 @@ class NextSplash extends StatelessWidget {
                 child: PageIndicator(controller: controller),
               ),
               TextButton(
-                  onPressed: () {},
-                  child:  Text(
-                    "Keyingisi",
-                    style: StyleText.styleIndigoW700Size14
-                  )),
+                  onPressed: () {
+                    Navigator.pushNamed(context, "/login");
+                  },
+                  child: Text("Keyingisi",
+                      style: StyleText.styleIndigoW700Size14)),
             ],
           ),
           SizedBox(
