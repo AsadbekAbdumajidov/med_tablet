@@ -12,6 +12,9 @@ class StyleText {
   static TextStyle styleBlack38W400Size14 =
       const TextStyle(color: AppColors.black38, fontWeight: FontWeight.w400);
 
+  static TextStyle styleBlack38W400Size13 = TextStyle(
+      color: AppColors.black38, fontWeight: FontWeight.w400, fontSize: he(13));
+
   static TextStyle styleIndigoW700Size14 =
       const TextStyle(color: AppColors.indigo, fontWeight: FontWeight.w700);
 
