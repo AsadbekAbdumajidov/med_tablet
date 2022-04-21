@@ -30,14 +30,14 @@ class _SignUpState extends State<SignUp> {
             child: Column(
               children: [
                 Text("Hisob ochish", style: StyleText.styleBlackW700Size24),
-                SizedBox(height: he(23)),
+                SizedBox(height: he(8)),
                 FormFieldLogText(
                   type: TextInputType.text,
                   controller: name,
                   label: "Ism",
                 ),
                 Padding(
-                  padding: EdgeInsets.symmetric(vertical: he(16)),
+                  padding: EdgeInsets.symmetric(vertical: he(8)),
                   child: FormFieldLogText(
                     type: TextInputType.number,
                     controller: number,
@@ -49,7 +49,7 @@ class _SignUpState extends State<SignUp> {
                   controller: email,
                   label: "Elektron pochta manzil",
                 ),
-                SizedBox(height: he(16)),
+                SizedBox(height: he(8)),
                 TextFormField(
                   controller: parol,
                   keyboardType: TextInputType.number,
@@ -67,18 +67,21 @@ class _SignUpState extends State<SignUp> {
                               : Icons.remove_red_eye_outlined,
                         ),
                       ),
-                      label: Text("Parol",style:StyleText.styleBlack38W400Size14)),
+                      label: Text("Parol",
+                          style: StyleText.styleBlack38W400Size14)),
                 ),
-                SizedBox(height: he(28)),
+                SizedBox(height: he(18)),
                 ElevatedButton(
                     style: StyleButton.blueAccent,
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, "/verify");
+                    },
                     child: const Text("Hisob ochish")),
               ],
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(bottom: he(15)),
+            padding: EdgeInsets.only(bottom: he(8)),
             child: TextButton(
               onPressed: () {},
               child: Row(
