@@ -9,4 +9,5 @@ class AppColors {
   static const white = Colors.white;
   static const transparent = Colors.transparent;
   static const yellow = Color.fromRGBO(255, 198, 24, 1);
+  
 }

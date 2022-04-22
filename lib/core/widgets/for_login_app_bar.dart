@@ -6,7 +6,7 @@ class LogAppBar {
   getBar(context) {
     return AppBar(
       elevation: 0,
-      backgroundColor: AppColors.transparent,
+      backgroundColor: AppColors.white,
       leading: IconButton(
           splashRadius: he(24),
           onPressed: () {
