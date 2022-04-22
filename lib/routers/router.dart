@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medic/core/components/bottom_nav_bar.dart';
 import 'package:medic/screens/login_page/login_page.dart';
 import 'package:medic/screens/sign_in/sign_in.dart';
 import 'package:medic/screens/sign_up/sign_up.dart';
@@ -31,7 +32,11 @@ class RouteGenerate {
         );
       case '/verify':
         return MaterialPageRoute(
-          builder: (context) => LoginVerifyPage(),
+          builder: (context) => const LoginVerifyPage(),
+        );
+      case '/nav_bar':
+        return MaterialPageRoute(
+          builder: (context) => const BottomBar(),
         );
     }
     return null;

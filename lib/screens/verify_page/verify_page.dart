@@ -34,7 +34,9 @@ class LoginVerifyPage extends StatelessWidget {
               ),
               ElevatedButton(
                   style: StyleButton.blueAccent,
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, "/nav_bar");
+                  },
                   child: const Text("Yuborish")),
               Padding(
                 padding: EdgeInsets.only(top: he(26)),
