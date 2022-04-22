@@ -36,7 +36,7 @@ class RouteGenerate {
         );
       case '/nav_bar':
         return MaterialPageRoute(
-          builder: (context) => BottomBar(),
+          builder: (context) => const BottomBar(),
         );
     }
     return null;

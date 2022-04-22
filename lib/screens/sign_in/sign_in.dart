@@ -42,30 +42,33 @@ class SignIn extends StatelessWidget {
                   ),
                   ElevatedButton(
                       style: StyleButton.blueAccent,
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context, "/nav_bar");
+                      },
                       child: const Text("KIRISH")),
                 ],
               ),
             ),
             Padding(
-              padding:  EdgeInsets.only(bottom: he(15)),
+              padding: EdgeInsets.only(bottom: he(15)),
               child: TextButton(
                   onPressed: () {},
-                  child:
-                      Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-                    Icon(
-                      Icons.arrow_back_ios_new_rounded,
-                      size: he(16),
-                      color: AppColors.black38,
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(left: wi(25), right: wi(10)),
-                      child: Text("Hisobingiz yo'qmi?",
-                          style: StyleText.styleBlack38W400Size14),
-                    ),
-                    const Text("Roʻyxatdan oʻtish",
-                        style: TextStyle(color: AppColors.yellow))
-                  ])),
+                  child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.arrow_back_ios_new_rounded,
+                          size: he(16),
+                          color: AppColors.black38,
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(left: wi(25), right: wi(10)),
+                          child: Text("Hisobingiz yo'qmi?",
+                              style: StyleText.styleBlack38W400Size14),
+                        ),
+                        const Text("Roʻyxatdan oʻtish",
+                            style: TextStyle(color: AppColors.yellow))
+                      ])),
             ),
           ],
         ),

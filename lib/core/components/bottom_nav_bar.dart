@@ -50,7 +50,7 @@ class BottomBar extends StatelessWidget {
                 text: 'Search',
               ),
               GButton(
-                icon: LineIcons.copyrightAlt,
+                icon: LineIcons.shoppingBag,
                 text: 'Cart',
               ),
               GButton(

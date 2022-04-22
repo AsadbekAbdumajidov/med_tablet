@@ -16,15 +16,13 @@ class HomeAppBar {
       centerTitle: true,
       automaticallyImplyLeading: false,
       backgroundColor: AppColors.transparent,
-      title: Text(title, style: StyleText.styleBlackW700Size18),
-      
+      title: Text(title,
+          textAlign: TextAlign.center, style: StyleText.styleBlackW700Size18),
       actions: [
         IconButton(
           splashRadius: 20,
           icon: Icon(rightIcon, color: AppColors.black),
-          onPressed: () {
-
-          },
+          onPressed: () {},
         ),
       ],
     );
