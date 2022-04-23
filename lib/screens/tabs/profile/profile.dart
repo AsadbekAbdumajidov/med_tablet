@@ -41,7 +41,7 @@ class Profile extends StatelessWidget {
               ],
             ),
             Padding(
-              padding: EdgeInsets.symmetric(vertical: he(14)),
+              padding: EdgeInsets.symmetric(vertical: he(10)),
               child: ListTile(
                 onTap: () {},
                 title: Text("Asadbek Abdumajidov",
@@ -63,7 +63,7 @@ class Profile extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: wi(24)),
               child: SizedBox(
-                height: he(445),
+                height: he(430),
                 child: ListView.builder(
                     physics: const NeverScrollableScrollPhysics(),
                     itemCount: profile.length,
@@ -72,11 +72,11 @@ class Profile extends StatelessWidget {
                       return Column(
                         children: [
                           ListTile(
-                            onTap: (){},
+                            onTap: () {},
                             contentPadding:
                                 EdgeInsets.symmetric(horizontal: wi(5)),
                             title: Text(profile[__],
-                                style: StyleText.styleBlackW400Size16),
+                                style: StyleText.styleBlackW700Size14),
                             trailing: Icon(
                               Icons.arrow_forward_ios_rounded,
                               color: AppColors.black.withOpacity(0.3),

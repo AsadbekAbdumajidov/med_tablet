@@ -46,12 +46,12 @@ class BuilderTort extends StatelessWidget {
                       style: StyleText.styleBlackW400Size12),
                   SizedBox(height: he(18)),
                   Row(
-                    children: const [
-                      Icon(Icons.star, color: AppColors.yellow, size: 20),
-                      Icon(Icons.star, color: AppColors.yellow, size: 20),
-                      Icon(Icons.star, color: AppColors.yellow, size: 20),
-                      Icon(Icons.star, color: AppColors.yellow, size: 20),
-                      Icon(Icons.star, color: AppColors.black38, size: 20),
+                    children:  [
+                      Icon(Icons.star, color: AppColors.yellow, size: he(18)),
+                      Icon(Icons.star, color: AppColors.yellow, size: he(18)),
+                      Icon(Icons.star, color: AppColors.yellow, size: he(18)),
+                      Icon(Icons.star, color: AppColors.yellow, size: he(18)),
+                      Icon(Icons.star, color: AppColors.black38, size: he(18)),
                     ],
                   ),
                   Padding(

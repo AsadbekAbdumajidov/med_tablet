@@ -3,6 +3,7 @@ import 'package:medic/core/components/size_konfig.dart';
 import 'package:medic/core/constants/color_const.dart';
 
 class StyleText {
+
   static TextStyle styleBlackW700Size14 = TextStyle(
       color: AppColors.black, fontWeight: FontWeight.w700, fontSize: he(14));
 
