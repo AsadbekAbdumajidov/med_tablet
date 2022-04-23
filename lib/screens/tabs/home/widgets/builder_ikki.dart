@@ -9,7 +9,7 @@ class BuilderIkki extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: he(330),
+      height: he(335),
       child: ListView.builder(
         physics: const BouncingScrollPhysics(),
         scrollDirection: Axis.horizontal,

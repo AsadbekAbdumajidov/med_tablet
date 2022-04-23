@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medic/core/components/size_konfig.dart';
 import 'package:medic/core/constants/color_const.dart';
-import 'package:medic/core/constants/style_const.dart';
 import 'package:medic/screens/tabs/home/widgets/builder_bir.dart';
 import 'package:medic/screens/tabs/home/widgets/builder_ikki.dart';
 import 'package:medic/screens/tabs/home/widgets/builder_tort.dart';
